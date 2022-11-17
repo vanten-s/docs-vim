@@ -53,29 +53,15 @@ interactions with the Google Docs editor. Improvements made to the library here
 be pushed back up to the main docs-plus library.
 
 ## Keys
-Currently set up to work with my DVORAK layout, these are the default keybindings:
+Currently set up to work with my QWERTY layout, these are the default keybindings:
 
 * Insert Mode:
     * Esc: enter normal mode
-    * hn: enter normal mode
 * Normal Mode:
     * i: enter insert mode
-    * dhtn: move
+    * hjkn: move
 
-Note that most of these can be changed in ``docs-vim.js``. For example, if you
-want to use the more common QWERTY keybindings, you'd change to:
-
-```
-vim = {
-    ...
-    "keys": {
-        "move": "hjkl",
-        "escapeSeq": "jk",
-    }
-};
-```
-
-Near the top of ``docs-vim.js``.
+Note that most of these can be changed in ``docs-vim.js
 
 ## Future Features
 I don't really use all that much of vim's shortcuts, but a few particular things I want to add

@@ -1,4 +1,4 @@
-const useQWERTY = false;
+const useQWERTY = true;
 const directionalKeys = useQWERTY ? "hjkl" : "dhtn";
 
 vim = {
@@ -20,6 +20,8 @@ vim = {
         "0": [["ArrowUp", true]],
         "o": [["ArrowDown", true], ["Enter"]],
         "O": [["ArrowUp", true], ["ArrowLeft"], ["Enter"]]
+        "_": [["ArrowUp", true],
+        "u": [["z", true]]
     },
     "needsInsert": ["a", "A", "I", "o", "O"]
 };
