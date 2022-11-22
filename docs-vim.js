@@ -20,7 +20,7 @@ vim = {
         "0": [["ArrowUp", true]],
         "o": [["ArrowDown", true], ["Enter"]],
         "O": [["ArrowUp", true], ["ArrowLeft"], ["Enter"]],
-        "_": [["ArrowUp", true],
+        "_": [["ArrowUp", true]],
         "u": [["z", true]]
     },
     "needsInsert": ["a", "A", "I", "o", "O"]
