@@ -19,7 +19,7 @@ vim = {
         "$": [["ArrowDown", true]],
         "0": [["ArrowUp", true]],
         "o": [["ArrowDown", true], ["Enter"]],
-        "O": [["ArrowUp", true], ["ArrowLeft"], ["Enter"]]
+        "O": [["ArrowUp", true], ["ArrowLeft"], ["Enter"]],
         "_": [["ArrowUp", true],
         "u": [["z", true]]
     },
